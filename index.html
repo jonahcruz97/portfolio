@@ -20,6 +20,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    
 
   </head>
 
@@ -60,23 +63,26 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('img/profile1.png')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+            <div class="carousel-caption d-none d-md-block text-center">
+              <div class="info">
+                  <h3>I'm a Software Engineer</h3>
+              </div>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/profile3.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              <div class="info">
+                  <h3>I'm a Colleague</h3>
+              </div>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/profile2a.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <div class="info">
+                  <h3>I'm a Teammate</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -248,36 +254,6 @@
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
-          <!--<div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-            </a>
-          </div>-->
         </div>
       </div>
     </section>
@@ -285,19 +261,19 @@
     <!-- About Section -->
     <section class="success" id="about">
       <div class="container">
-        <h2 class="text-center">About</h2>
+        <h2 class="text-center">About Me</h2>
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p>I am a student at UC San Diego getting my BS in Computer Science. Something I've learned over my internships and time in school is this: the people are important. Good teams are what makes good software. My goal is not to just be a good software engineer. I want to be an effective colleague who contributes positively to the team's success.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p>Through my past internships, I have gained experience in both .NET and back-end Java development. I am a fast learner and a passionate worker. Facing problems in unfamiliar territory is a fun and exciting task for me. If there is a technology I am unfamiliar with, I will take the time to learn it and apply it to the problems I face.</p>
           </div>
           <div class="col-lg-8 mx-auto text-center">
-            <a href="#" class="btn btn-lg btn-outline">
+            <a href="doc/resume.pdf" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
-              Download Theme
+              Resume
             </a>
           </div>
         </div>
@@ -443,13 +419,14 @@
                   <h2>Waitless</h2>
                   <img class="img-fluid img-centered" src="img/portfolio/waitless.png" alt="">
                   <p>
-                    Class projects, although fun, can often fail to simulate what software development is </p>
+                    Class projects, although fun, can often fail to simulate what software development is like in the real world. This UCSD class gave my team a simple task: create a <strong>visitor management web application.</strong> The catch was this: we had to <strong>inherit code</strong> from a previous class. After 10 weeks of development, my team delivered an improved application with newly implemented features.</p>
                   <div class="info-modal">
+                      <h3>Project Info</h3>
                       <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6">
+                          <div class="col-sm-12 col-md-6">
                               <div id="donutchart1" style="width: 400px; height: 200px;"></div>
                           </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6">
+                          <div class="col-sm-12 col-md-6">
                               <ul class="list-inline item-details">
                                   <li>Client:
                                       <strong>
@@ -478,48 +455,67 @@
                   <div class="info-modal">
                       <h3>Challenges</h3>
                       <div class="row">
-                          <ol class="list-inline item-details">
-                              <li>
-                                  <strong>
-                                    <a>Inherited large buggy codebase with thousands of lines of code</a>
-                                  </strong>
-                              </li>
-                              <li>
-                                <strong>
-                                  <a>Existing tests were mostly broken</a>
-                                </strong>
-                              </li>
-                              <li>Service:
-                                <strong>
-                                  <a>Web Development</a>
-                                </strong>
-                              </li>
-                              <li>Framework:
-                                  <strong>
-                                    <a>Node.js</a>
-                                  </strong>
-                              </li>
-                          </ol>
+                        <div class="col-sm-8 col-lg-6 mx-auto">
+                            <div class="row bullets">
+                                <ol class="list-inline item-details">
+                                    <li>
+                                        <strong>
+                                          <a>Inherited large codebase with thousands of lines, much of which didn't do anything</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a>Most of the features were buggy and had to be fixed</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <a>Existing tests were mostly broken and needed to be rewritten</a>
+                                        </strong>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
                       </div>
                   </div>
                   <div class="info-modal">
                       <h3>Features Added</h3>
                       <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6">
-                            <p>Implemented a new admin dashboard to keep track of sign-in and sign-out information.</p>
+                          <div class="col-sm-12 col-md-4">
+                              <h6>New Admin Dashboard to keep track of visitor info</h6>
                           </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6">
+                          <div class="col-sm-12 col-md-8">
                               <img class="img-fluid img-centered" src="img/portfolio/dashboard.png" alt="">
                           </div>
-                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-sm-12 col-md-4">
+                              <img class="img-fluid img-centered" src="img/portfolio/adding-appointment.png" alt="">
+                          </div>
+                          <div class="col-sm-12 col-md-4">
+                              <img class="img-fluid img-centered" src="img/portfolio/appointment.png" alt="">
+                          </div>
+                          <div class="col-sm-12 col-md-4">
+                              <h6>Fixed bugs in the appointment scheduler</h6>
+                          </div>
+                      </div>
+                      
+                      <div class="row">
+                          <div class="col-sm-12 col-md-4 modal-text">
+                              <h6>Integrated appointment system with Facebook messaging</h6>
+                          </div>
+                          <div class="col-sm-12 col-md-8">
+                              <img class="img-fluid img-centered" src="img/portfolio/facebook-demo.png" alt="">
+                          </div>
+                      </div>
                   </div>
                   <div class="info-modal">
                     <h3>Deployment Pipeline</h3>
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-8">
                           <img class="img-fluid img-centered" src="img/portfolio/pipeline.png" alt="">
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-4">
                             <p>Developed an fully automated deployment pipline. With every push to Git, this pipeline runs several tools to test code and ensure code quality.</p>
                         </div>
                       </div>
